@@ -92,7 +92,7 @@ int frequency(string note)
 
 // Return the final hertz
 
-    return round(pow(2, distance/12) * octHertz);
+    return round(pow(2, distance / 12) * octHertz);
 }
 
 // Determines whether a string represents a rest
